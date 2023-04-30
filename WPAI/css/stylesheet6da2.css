@@ -1,0 +1,1045 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #0055f1;
+}
+
+button {
+    cursor: pointer;
+}
+
+nav {
+    border-bottom: solid 1px black;
+}
+
+.swal-button {
+    background-color: #44d0ff;
+}
+
+.swal-button-container:nth-child(3) .swal-button {
+    background-color: #1990ef !important;
+}
+
+.swal-button--cancel {
+    background-color: #efefef !important;
+}
+
+.multiselect-native-select button {
+    overflow-x: hidden;
+}
+
+#questions-box {
+    position: absolute;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bolder;
+    color:white;
+    text-align: center;
+    display: table;
+    width: 100%;
+    left: 0%;
+    background-color: purple;
+}
+
+.custom-range {
+    width: 50% !important;
+    display: inline !important;
+}
+
+.sliderSpanRight {
+    width: 25%;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.sliderSpanLeft {
+    width: 25%;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+#aboutBox {
+    position: absolute;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+
+.imagePart {
+    width: 40%;
+    display: inline;
+}
+
+.textPart {
+    width: 60%;
+    display: inline;
+}
+
+#faqResults {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#signUpBox {
+    position: absolute;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: lighter;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+
+#account-box {
+    position: absolute;
+    font-weight: lighter;
+    text-align: center;
+    display: table;
+    width: 90%;
+}
+
+#upgrade-box {
+    position: absolute;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: lighter;
+    text-align: center;
+    display: table;
+    width: 90%;
+}
+
+.vybeLogo {
+    position: fixed;
+    left: 1%;
+    height: 40px;
+    bottom: 20px;
+}
+
+#bLogo {
+    left: 139px;
+    height: 26px;
+    bottom: 27px;
+}
+
+#signUpSection {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#upgradeSection {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+#accountSection {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+#backButton {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+    background: white;
+}
+
+#getStartedAgain {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: white !important;
+}
+
+#getStartedAgain:hover {
+    background: -webkit-linear-gradient(#0055f1, #c000ff) !important;
+    color: white !important;
+}
+
+.backToMain {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: white !important;
+}
+
+.backToMain:hover, #projectsButton:hover, #contactUsButton:hover, .backToMain:focus, #projectsButton:focus, #contactUsButton:focus, .backToMain:active, #projectsButton:active, #contactUsButton:active {
+    background: -webkit-linear-gradient(#0055f1, #c000ff) !important;
+    color: white !important;
+}
+
+#signInButton {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: white !important;
+}
+
+#contactUsButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: white !important;
+}
+
+#projectsButton {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: white !important;
+    z-index: 999;
+}
+
+#newProjectButton {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: white !important;
+    color: #0099cc !important;
+}
+
+#newProjectButton:hover {
+    background: -webkit-linear-gradient(#0055f1, #c000ff) !important;
+    color: white !important;
+}
+
+#accountButton {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: white !important;
+    color: #0099cc !important;
+}
+
+#accountButton:hover {
+    background: -webkit-linear-gradient(#0055f1, #c000ff) !important;
+    color: white !important;
+}
+
+#signOutButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: white !important;
+    color: #0099cc !important;
+}
+
+#requestDeveloper {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: white !important;
+    color: #0099cc !important;
+}
+
+#signOutButton:hover {
+    background: #0099cc !important;
+    color: white !important;
+}
+
+#requestDeveloper:hover {
+    background: #0099cc !important;
+    color: white !important;
+}
+
+#mainSection {
+    margin-top: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+#domainName {
+    text-align: right;
+}
+
+#siteLiveText {
+    font-size: 18px;
+}
+
+.explainButton {
+    margin-bottom: 10px !important;
+}
+
+.projectRow {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.projectName {
+    text-decoration: none !important;
+}
+
+.projectName h4 {
+    margin-bottom: 0 !important;
+    line-height: 1.2;
+    cursor: auto !important;
+    color: #337ab7 !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+}
+
+.projectName h4:hover {
+    text-decoration: none !important;
+    color: #337ab7 !important;
+}
+
+.projectName svg {
+    color: #337ab7 !important;
+    cursor: pointer;
+}
+
+.projectName svg:hover {
+    color: #286090 !important;
+}
+
+legend {
+    text-align: left;
+    font-size: 26px !important;
+    padding-bottom: 4px !important;
+    margin-bottom: 30px !important;
+}
+
+.projectsSection {
+    background: white !important;
+    padding: 30px !important;
+}
+
+.projectsSection h3 {
+    font-weight: lighter !important;
+    margin-top: 30px;
+}
+
+.projectImage {
+    width: 100%;
+    max-width: 250px;
+}
+
+.projectBox {
+    position: relative;
+}
+
+.copyFooter {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+}
+
+.editSection {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.paymentsSection {
+    border-top: 1px solid #f2f2f2;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.paymentsSection h4 {
+    font-weight: 300;
+    font-size: 16px !important;
+}
+
+.infoSection h4 {
+    font-weight: 300;
+    font-size: 16px !important;
+}
+
+.paymentsSection .editSection {
+    padding-top: 0;
+}
+
+.infoSection h3 {
+    margin-top: 10px;
+}
+
+.infoSection {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.copyFooter h5 {
+    font-weight: 100 !important;
+}
+
+#logInDesign {
+    position: absolute;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+
+#logInDesign table {
+    text-align: left;
+}
+
+#logInDesign h1 {
+    margin-bottom: 60px;
+}
+
+#talkIcon {
+    width: 80px;
+    border-radius: 40px;
+    cursor: pointer;
+    border: 2px solid #628387;
+}
+
+.priceVal {
+    text-align: center;
+    font-size: 18px;
+}
+
+.inputBox {
+    font-size: 18px;
+    color: black;
+    border-radius: 5px;
+    border: solid 1px #dfdfdf;
+    padding: 5px;
+}
+
+#platformName {
+    text-align: center;
+    width: 50%;
+}
+
+#slogan {
+    text-align: center;
+    width: 80%;
+}
+
+#keywords {
+    text-align: center;
+    width: 80%;
+}
+
+#searchField {
+    text-align: center;
+    width: 80%;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.questionBox h1 {
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+.question .btn {
+    margin-top: 20px;
+}
+
+.aboutBox h1 {
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.form-check-label {
+    margin-right: 20px;
+}
+
+.innerAbout {
+    position: absolute;
+    -webkit-overflow-scrolling: touch;
+}
+
+#aboutMain {
+    width: 80%;
+    left: 10%;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 16px;
+}
+  
+.btn-lg {
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+
+.btn-primary.outline {
+    border: solid 1px #8a00ff;
+    color: #8a00ff;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    background: -webkit-linear-gradient(#0055f1, #c000ff) !important;
+    color: white;
+}
+
+.btn-primary.outline:active, .btn-primary.outline.active {
+    background: -webkit-linear-gradient(#0055f1, #c000ff) !important;
+    color: white;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 200 !important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+span.multiselect-native-select {
+	position: relative
+}
+
+span.multiselect-native-select select {
+	border: 0!important;
+	clip: rect(0 0 0 0)!important;
+	height: 1px!important;
+	margin: -1px -1px -1px -3px!important;
+	overflow: hidden!important;
+	padding: 0!important;
+	position: absolute!important;
+	width: 1px!important;
+	left: 50%;
+	top: 30px
+}
+
+.multiselect-container {
+	position: absolute;
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+}
+
+.multiselect-container .input-group {
+	margin: 5px
+}
+
+.multiselect-container>li {
+	padding: 0
+}
+
+.multiselect-container>li>a.multiselect-all label {
+	font-weight: 700
+}
+
+.multiselect-container>li.multiselect-group label {
+	margin: 0;
+	padding: 3px 20px 3px 20px;
+	height: 100%;
+	font-weight: 700
+}
+
+.multiselect-container>li.multiselect-group-clickable label {
+	cursor: pointer
+}
+
+.multiselect-container>li>a {
+	padding: 0
+}
+
+.multiselect-container>li>a>label {
+	margin: 0;
+	height: 100%;
+	cursor: pointer;
+	font-weight: 400;
+	padding: 3px 0 3px 30px
+}
+
+.multiselect-container>li>a>label.radio, .multiselect-container>li>a>label.checkbox {
+	margin: 0
+}
+
+.multiselect-container>li>a>label>input[type=checkbox] {
+	margin-bottom: 5px
+}
+
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px
+}
+
+.form-inline .multiselect-container label.checkbox, .form-inline .multiselect-container label.radio {
+	padding: 3px 20px 3px 40px
+}
+
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox], .form-inline .multiselect-container li a label.radio input[type=radio] {
+	margin-left: -20px;
+	margin-right: 0
+}
+
+.dropdown-menu {
+    z-index: 100000 !important;
+}
+
+#finishButton {
+    margin-right: 0 !important;
+}
+
+#faqInput {
+    width: 50%;
+    text-align: center;
+}
+
+#faqResults {
+    overflow-y: scroll;
+}
+
+.faqDiv h3 {
+    font-weight: 300 !important;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-device-width : 1024px) {
+    .projectName h4 {
+	font-size: 12px;
+    }
+    
+    .projectButton {
+	font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-device-width : 800px) {
+    #faqInput {
+        width: 80%;
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    input {
+        padding-top: 8px;
+    }
+    
+    #backFromFaq, #backFromT {
+        margin-top: 0 !important;
+    }
+    
+    .lead {
+        font-size: 40px !important;
+        padding: 30px 10px !important;
+    }
+    
+    .sweet-alert {
+        width: 80% !important;
+        left: 10% !important;
+        margin-left: 0 !important;
+        padding: 50px 20px !important;
+    }
+    
+    #faqSearch h1 {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    #aboutBox h1 {
+        font-weight: 200 !important;
+        font-size: 48px !important;
+    }
+    
+    #faqSection h3 {
+        font-size: 50px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    #faqResults {
+        padding-top: 80px;
+    }
+    
+    #faqSection {
+        top: 140px !important;
+    }
+    
+    h1 {
+	font-size: 70px !important;
+	margin-bottom: 60px !important;
+    }
+    
+    #talkIcon {
+	width: 160px !important;
+	border-radius: 80px !important;
+        margin-bottom: 30px;
+    }
+    
+    .btn-lg, .btn-group-lg > .btn {
+	font-size: 40px !important;
+    }
+    
+    .btn.outline {
+	padding: 24px 22px !important;
+    }
+    
+    .btn-primary.outline {
+	    margin-right: 40px !important;
+        margin-top: 30px !important;
+        font-size: 30px !important;
+    }
+    
+    .question .btn-primary.outline:nth-child(4) {
+	margin-right: 0px !important;
+    }
+    
+    .question .btn-primary.outline:last-child {
+	margin-right: 0px !important;
+    }
+    
+    #platformName {
+	font-size: 40px;
+        width: 80%;
+    }
+    
+    #searchField {
+	font-size: 50px;
+    }
+    
+    #keywords {
+	font-size: 40px;
+    }
+    
+    .multiselect-native-select .btn {
+	font-size: 40px !important;
+    }
+    
+    .multiselect-container {
+	font-size: 40px !important; 
+    }
+    
+    .btn-default {
+	font-size: 40px !important;
+	padding: 20px !important;
+    }
+    
+    .colorSection {
+	font-size: 40px !important;
+    }
+    
+    h2 {
+	font-size: 60px !important;
+    }
+    
+    .colorSection input {
+	text-align: center !important;
+    }
+    
+    .projectsSection legend {
+	font-size: 60px !important;
+    }
+    
+    .projectsSection h4 {
+	font-size: 45px !important;
+	margin-top: 20px;
+    }
+    
+    .projectBox {
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+    }
+    
+    #newProjectButton {
+	right: -20px;
+    }
+    
+    #signOutButton {
+	right: -20px;
+    }
+    
+    #projectsButton {
+	right: -20px;
+    }
+    
+    .btn-primary.outline.projectButton {
+        margin-right: 0 !important;
+    }
+    
+    .copyFooter h5 {
+	font-size: 30px;
+    }
+    
+    body {
+        overflow-x: hidden !important;
+    }
+    
+    .omb_login .omb_forgotPwd {
+        text-align: right;
+	margin-top:10px;
+    }
+        
+    .omb_authTitle {
+        font-size: 60px;
+    }
+    
+    .omb_spanOr {
+        font-size: 60px;
+    }
+    
+    input[type=text] {
+        font-size: 40px;
+        height: 70px;
+    }
+    
+    input[type=password] {
+        font-size: 40px;
+        height: 70px;
+    }
+    
+    .passwordGroup {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .omb_forgotPwd {
+        text-align: center !important;
+        font-size: 50px !important;
+        margin-top: 100px !important;
+    }
+    
+    .omb_login .omb_loginOr .omb_spanOr {
+        position: relative !important;
+        margin-left: 0 !important;
+        background-color: white;
+        width: 100% !important;
+        text-align: center !important;
+        top: 10px !important;
+        left: 0 !important;
+    }
+    
+    #askQuestionsButton { 
+        margin-right: 0 !important;
+    }
+
+    #noProjectsText {
+	font-size: 50px !important;
+	margin-top: 80px;
+	margin-bottom: 60px;
+    }
+    
+    #loggedInSpan {
+	position: relative !important;
+	left: 20px !important;
+	top: 5px !important;
+    }
+    
+    #createProjectButton {
+	margin-right: 0 !important;
+	margin-top: 0 !important;
+    }
+    
+    #registerButton {
+	margin-top: 40px;
+    }
+    
+    #siteLiveText {
+	font-size: 50px;
+    }
+    
+    #domainName {
+	font-size: 44px;
+        width: 50%;
+    }
+    
+    #slogan {
+	font-size: 40px;
+    }
+    
+    .projectRow {
+	padding-bottom: 60px !important;
+    }
+    
+    .lastProjectRow {
+	padding-bottom: 50px !important;
+    }
+    
+    .projectsSection {
+	margin-bottom: 100px !important;
+    }
+    
+    .projectName svg {
+	font-size: 50px;
+	margin-top: 30px;
+    }
+    
+    .deleteProjectIcon {
+	margin-left: 30px;
+    }
+    
+    .vybeLogo {
+	   height: 86px;
+    }
+    
+    #bLogo {
+        left: 262px;
+        height: 50px;
+        bottom: 41px;
+    }
+    
+    .jscolor {
+	margin-bottom: 30px !important;
+    }
+    
+    #colorsHeader {
+	display: none;
+    }
+    
+    #mainSection {
+	padding-top: 150px;
+	padding-bottom: 40px;
+    }
+    
+    #accountSection {
+	padding-top: 150px;
+	padding-bottom: 40px;
+    }
+    
+    #upgradeSection {
+	padding-top: 150px;
+	padding-bottom: 40px;
+    }
+    
+    #accountSection {
+	font-size: 50px !important;
+    }
+    
+    #account-box {
+	width: 90%;
+	left: 5%;
+    }
+    
+    .editSection  {
+	text-align: left;
+    }
+    
+    .editSection .btn.outline {
+	margin-top: 0 !important;
+	margin-bottom: 50px;
+    }
+    
+    #upgradeSection .editSection .btn.outline {
+	margin-bottom: 10px !important;
+    }
+    
+    .projectsSection h3 {
+	font-size: 50px;
+    }
+    
+    .paymentsSection h4 {
+	font-weight: lighter;
+    }
+    
+    .infoSection h4 {
+	font-weight: lighter;
+    }
+    
+    .paymentsSection .editSection .btn.outline {
+	margin-top: 20px !important
+    }
+    
+    #signInButton {
+	margin-top: 5px !important;
+    }
+   
+    #contactUsButton {
+	margin-top: 5px !important;
+        margin-right: 0px !important;
+    }
+    
+    #newProjectButton {
+	margin-top: 5px !important;
+    }
+    
+    #accountButton {
+	margin-top: 5px !important;
+    }
+    
+    #backButton {
+	margin-top: 0px !important;
+    }
+    
+    #getStartedAgain {
+        margin-top: 0px !important;
+    }
+    
+    .backToMain {
+        margin-top: 0px !important;
+    }
+    
+    #projectsButton {
+	margin-top: 0px !important;
+    }
+}
+
+@media only screen and (max-device-width : 414px) {
+    #aboutBox h1 {
+        font-weight: 200 !important;
+        font-size: 50px !important;
+    }
+    
+    .btn-primary.outline {
+	    margin-right: 40px !important;
+        margin-top: 35px !important;
+        font-size: 40px !important;
+    }
+    
+    .btn-primary.outline.bigButton {
+        margin-right: 0 !important;
+    }
+}

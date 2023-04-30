@@ -1,0 +1,2672 @@
+body {
+    overflow-x: hidden !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.outerGrid {
+    display: inline-grid;
+    position: relative;
+}
+
+.innerGridTable {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.innerTableContent {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.paymentsSection span {
+    font-weight: 400;
+}
+
+#paymentAmtHeader {
+    font-weight: 500 !important;
+}
+
+#paymentButtonRow button {
+    margin-top: 10px;
+}
+
+#paymentButtonRow span {
+    font-size: 22px;
+}
+
+#paymentButtonRow strong {
+    font-weight: 300;
+}
+
+#paypalBusinessSection, #paypalProSection {
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1030;
+    width: 100%;
+    height: 100%;
+}
+
+#closePaypalBusiness, #closePaypalPro {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background: rgba(0,0,0,0);
+    border: none;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 1000000;
+}
+
+#paypal-button-container {
+    margin-top: 40%;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    padding-bottom: 0;
+}
+
+.bottomButton {
+    margin-top: 20px;
+}
+
+.pageViewPart {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 8px;
+    color: white;
+    text-align: center;
+}
+
+.pageViewPart h4 {
+    font-weight: bold;
+}
+
+#developerChanges {
+    resize: none;
+}
+
+.projectButton {
+    width: 90%;
+    left: 5%;
+}
+
+.omb_login .omb_authTitle {
+    text-align: center;
+    line-height: 300%;
+    font-weight: lighter;
+}
+
+.omb_login .omb_socialButtons a {
+	color: white;
+	opacity:0.9;
+	font-size: 18px;
+}
+.omb_login .omb_socialButtons a:hover {
+    color: white;
+	opacity:1;
+}
+.omb_login .omb_socialButtons .omb_btn-facebook {background: #3b5998;}
+.omb_login .omb_socialButtons .omb_btn-twitter {background: #00aced;}
+.omb_login .omb_socialButtons .omb_btn-google {background: #c32f10;}
+
+.omb_login .omb_loginOr {
+	position: relative;
+	font-size: 1.5em;
+	color: #aaa;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.omb_login .omb_loginOr .omb_hrOr {
+	background-color: #cdcdcd;
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.omb_login .omb_loginOr .omb_spanOr {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -0.6em;
+	margin-left: -1.5em;
+	background-color: white;
+	width: 3em;
+	text-align: center;
+}
+
+.omb_login .omb_loginForm .input-group.i {
+	width: 2em;
+}
+.omb_login .omb_loginForm  .help-block {
+    color: red;
+}
+
+.inactiveLink {
+    cursor: pointer !important;
+}
+
+.inactiveLink:hover {
+    text-decoration: none !important;
+}
+
+.activeLink {
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#loggedInSpan {
+    position: relative;
+    font-weight: lighter;
+    top: 10px;
+    left: 170px;
+}
+
+.swal-footer {
+    text-align: center !important;
+}
+
+.swal-text {
+    text-align: center !important;
+}
+
+.swal-modal {
+    transition: opacity .5s,-webkit-transform 1s;
+    transition: transform 1s,opacity .5s;
+    transition: transform 1s,opacity .5s,-webkit-transform 1s;
+}
+
+.swal-title {
+    font-weight: 400;
+}
+
+.swal-button {
+    font-weight: 500;
+}
+
+.swal-content label {
+    font-weight: 400 !important;
+}
+
+.swal-overlay--show-modal .swal-modal {
+    animation: showSweetAlert 1s;
+    animation-name: showSweetAlert;
+    animation-duration: 0.5s;
+    animation-timing-function: initial;
+    animation-delay: initial;
+    animation-iteration-count: initial;
+    animation-direction: initial;
+    animation-fill-mode: initial;
+    animation-play-state: initial;
+    -webkit-animation: showSweetAlert 1s;
+    animation-name: showSweetAlert;
+    animation-duration: 0.5s;
+    animation-timing-function: initial;
+    animation-delay: initial;
+    animation-iteration-count: initial;
+    animation-direction: initial;
+    animation-fill-mode: initial;
+    animation-play-state: initial;
+}
+
+.panel
+{
+    text-align: center;
+}
+.panel:hover { box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px 5px rgba(130, 130, 130, 0.35); }
+.panel-body
+{
+    padding: 0px;
+    text-align: center;
+}
+
+.the-price
+{
+    background-color: rgba(220,220,220,.17);
+    box-shadow: 0 1px 0 #dcdcdc, inset 0 1px 0 #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+.the-price h1
+{
+    line-height: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+.subscript
+{
+    font-size: 25px;
+}
+
+/* CSS-only ribbon styles    */
+.cnrflash
+{
+    /*Position correctly within container*/
+    position: absolute;
+    top: -9px;
+    right: 4px;
+    z-index: 1; /*Set overflow to hidden, to mask inner square*/
+    overflow: hidden; /*Set size and add subtle rounding  		to soften edges*/
+    width: 100px;
+    height: 100px;
+    border-radius: 3px 5px 3px 0;
+}
+.cnrflash-inner
+{
+    /*Set position, make larger then 			container and rotate 45 degrees*/
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 145px;
+    height: 145px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -o-transform: rotate(45deg); /* Opera */
+    -moz-transform: rotate(45deg); /* Firefox */
+    -webkit-transform: rotate(45deg); /* Safari and Chrome */
+    -webkit-transform-origin: 100% 100%; /*Purely decorative effects to add texture and stuff*/ /* Safari and Chrome */
+    -ms-transform-origin: 100% 100%;  /* IE 9 */
+    -o-transform-origin: 100% 100%; /* Opera */
+    -moz-transform-origin: 100% 100%; /* Firefox */
+    background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.1) 50%), linear-gradient(0deg, transparent 0%, rgba(1,1,1,.2) 50%);
+    background-size: 4px,auto, auto,auto;
+    background-color: #aa0101;
+    box-shadow: 0 3px 3px 0 rgba(1,1,1,.5), 0 1px 0 0 rgba(1,1,1,.5), inset 0 -1px 8px 0 rgba(255,255,255,.3), inset 0 -1px 0 0 rgba(255,255,255,.2);
+}
+.cnrflash-inner:before, .cnrflash-inner:after
+{
+    /*Use the border triangle trick to make  				it look like the ribbon wraps round it's 				container*/
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    width: 0;
+    height: 0;
+    border: 8px solid #800000;
+}
+.cnrflash-inner:before
+{
+    left: 1px;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+.cnrflash-inner:after
+{
+    right: 0;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.cnrflash-label
+{
+    /*Make the label look nice*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    padding-bottom: 5px;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(1,1,1,.8);
+    font-size: 0.95em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.omb_authTitle a {
+    color: #337ab7 !important;
+}
+
+.logoLink {
+    margin: 30px;
+}
+
+.logoLink img {
+    width: 50%;
+}
+
+.sidebar::before,.off-canvas-sidebar nav .navbar-collapse::before {
+    background: white !important;
+    z-index: -1 !important;
+}
+
+.sidebar-wrapper {
+    background: white;
+}
+
+.sidebar .nav li a {
+    border-radius: 15px !important;
+}
+
+.sidebar .nav-link p {
+    display: inline-block !important;
+    margin-left: 15px !important;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.nav-last {
+    position: absolute;
+    bottom: 60px;
+}
+
+.content {
+    background-color:rgb(240,240,240);
+    background-image: url('../images/circle_topright.png'), url('../images/circle_bottomleft.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top, left bottom;
+    position: relative;
+}
+
+/*project overlay*/
+
+.projectOverlayOuter {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 20;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#projectOverlay {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: rgba(180,180,180,0.5);
+    margin-left: 0;
+}
+
+#projectBorder {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 12% 33%;
+    text-align: center;
+    font-family: 'poppins', sans-serif !important;
+    box-shadow: 0 0 16px 2px rgba(90,90,90,0.3);
+}
+
+#projectBorder .topBtnRow {
+    margin-bottom: 25px;
+}
+
+.projBtn {
+    font-size: 10px;
+    letter-spacing: .07em;
+    border-radius: 5px !important;
+    padding: 8px 10px !important;
+    background: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #8a00ff;
+    border: 1px solid #8a00ff;
+    transition: 0.3s;
+}
+
+.projBtn:hover {
+    color:  white;
+    background: -webkit-linear-gradient(left, #0055f1, #873df2) !important;
+    border-color: transparent;
+}
+
+#pjBtnL {
+    float: left;
+}
+
+#pjBtnR {
+    float: right;
+}
+
+/*
+#projectBorder .siteTitleWrap {
+    margin-bottom: 15px;
+}
+*/
+
+#projectBorder h4 {
+    font-size: 15px;
+    letter-spacing: .03em;
+    font-weight: 600;
+    color: rgb(10,10,10);
+    display: inline-block;
+}
+
+#projectBorder a {
+    text-decoration: underline;
+    color: rgb(10,10,10);
+}
+
+#projectBorder .nameRow {
+    margin-bottom: 20px;
+}
+
+.nameRow img {
+    margin-left: 4px;
+    width: 12px;
+    margin-bottom: 4px;
+}
+
+#projectBorder .btnRow {
+    margin-bottom: 20px;
+}
+
+#projectBorder .btnRow button {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: .07em;
+    padding: 11px 0;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 14px;
+    transition: 0.3s;
+}
+
+#projectBorder .btnRow button:hover {
+    opacity: 0.8;
+}
+
+#projectBorder .btnRow #editSite {
+    background: #873df2;
+}
+
+#projectBorder .btnRow #viewDash {
+    background: #1c59e9;
+}
+
+/*
+#projectBorder .btnRow .wideLeftCol {
+
+}
+*/
+
+#projectBorder .btnRow .wideLeftCol,
+#projectBorder .btnRow .upgradeWrap {
+    padding-right: 6px;
+}
+
+#projectBorder .btnRow .wideRightCol,
+#projectBorder .btnRow .deleteWrap {
+    padding-left: 6px;
+}
+
+#projectBorder .btnRow #upgradeBtn {
+    background: #22c477;
+}
+
+#projectBorder .btnRow #deleteBtn {
+    color: rgb(95,95,95);
+    background: rgb(240,240,240);
+}
+
+#projectBorder .btnRow #deleteBtn:hover {
+    opacity: 1;
+    background: rgb(220,220,220);
+}
+
+#projectBorder .shareRow a {
+    float: right;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+#projectBorder .shareRow a:hover {
+    background: rgb(240,240,240);
+}
+
+#projectBorder .shareRow span {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#projectBorder .shareRow img {
+    margin-left: 6px;
+    margin-bottom: 6px;
+}
+
+#projectsOuter {
+    display: block;
+}
+
+#projectsWrap {
+    margin-left: 15%;
+    padding: 30px 30px 10px;
+/*    display: block;*/
+}
+
+.projColWrap, .lcgColWrap {
+    background: white;
+    border-radius: 15px;
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center
+}
+
+#projectsWrap h2 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .02em;
+    padding-bottom: 20px;
+/*    border-bottom: 1px solid rgb(240,240,240);*/
+    margin: 0;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.indivSiteWrap {
+    border-top: 1px solid rgb(240,240,240);
+    padding: 25px;
+}
+
+.indivSiteWrap .siteTop {
+    padding: 12px;
+    background: rgb(240,240,240);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.indivSiteWrap .siteTop .siteTopText {
+    text-align: center;
+    text-align: -webkit-center;
+    margin-bottom: 15px;
+}
+
+/*.indivSiteWrap .siteTop h3,*/
+.indivSiteWrap .siteTop .nameWrap {
+    display: table-cell;
+}
+
+.indivSiteWrap .siteTop h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 15px 5px 0;
+}
+
+.indivSiteWrap .siteTop .nameWrap {
+    padding-top: 3px;
+    color: rgb(95,95,95);
+    text-align: center;
+}
+
+.indivSiteWrap .siteTop .nameWrap img {
+    width: 11px;
+    height: 11px;
+    margin-left: 2px;
+}
+
+.indivSiteWrap .siteTop .nameWrap h4 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: .06em;
+    margin: 0;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.indivSiteWrap .siteTop .nameWrap a {
+    font-size: 12px;
+    color: rgb(95,95,95);
+    text-decoration: underline;
+    letter-spacing: .05em;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.indivSiteWrap .siteTop .siteTopBtns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.indivSiteWrap .siteTop .siteTopBtns button {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .07em;
+    padding: 8px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    align-self: center;
+    width: 100px;
+}
+
+.indivSiteWrap .siteTop .siteTopBtns #editSiteBtn {
+    color: white;
+    background: #873DF2;
+    border: 1px solid #873DF2;
+}
+
+.indivSiteWrap .siteTop .siteTopBtns #editSiteBtn:hover,
+.indivSiteWrap .siteTop .siteTopBtns #upgradeSiteBtn:hover {
+    opacity: 0.8;
+}
+
+.indivSiteWrap .siteTop .siteTopBtns #manageSiteBtn {
+    color: #873DF2;
+    background: transparent;
+    border: 1px solid #873DF2;
+}
+
+.indivSiteWrap .siteTop .siteTopBtns #manageSiteBtn:hover {
+    background: rgb(230,230,230);
+}
+
+.indivSiteWrap .siteTop .siteTopBtns #upgradeSiteBtn {
+    color: white;
+    background: #22C477;
+    border: 1px solid #22C477;
+}
+
+.indivSiteWrap .siteBottom {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.indivSiteWrap .siteBottom .siteBtmCol {
+    letter-spacing: .05em;
+    background: rgb(240,240,240);
+    border-radius: 8px;
+    max-width: 49%;
+    flex: 0 0 50%;
+    padding: 0;
+}
+
+.indivSiteWrap .siteBottom .siteBtmLCol {
+    margin-right: 1%;
+}
+
+.indivSiteWrap .siteBottom .siteBtmRCol {
+    margin-left: 1%;
+}
+
+.indivSiteWrap .siteBottom .siteBtmCol .siteBtmViews,
+.indivSiteWrap .siteBottom .siteBtmCol .siteBtmCount {
+    padding: 4px;
+}
+
+.indivSiteWrap .siteBottom .siteBtmCol .siteBtmCount {
+    background: rgb(230,230,230);
+    border-radius: 0 0 8px 8px;
+}
+
+.projectsAdWrap {
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    right: 11%;
+}
+
+.projectsAdWrap .lgcAdMed {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: .05em;
+    margin-bottom: 0;
+}
+
+.projectsAdWrap h2 {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: .06em;
+}
+
+.projectsAdWrap .lgcAdSmall {
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: .05em;
+    margin-bottom: 0;
+}
+
+.projectsAdWrap .projectsAdArt {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.projectsAdWrap .projectsAdBrand {
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+}
+
+.projectsAdWrap button {
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: .07em;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+    color: #873DF2;
+    background: transparent;
+    border: 1px solid #873DF2;
+    margin: 20px 0 10px;
+}
+
+.projectsAdWrap button:hover {
+    color: white !important;
+    background: -webkit-linear-gradient(#0055f1, #c000ff) !important;
+}
+
+.projectsAdWrap #datumAdHeader {
+    font-size: 18px;
+}
+
+/* LGC */
+
+#lgcLeftWrap {
+    margin-left: 7%;
+    background-image: url(../images/LGCtop_purp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 17%;
+}
+
+#lgcLeftWrap h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #873DF2;
+/*    margin-bottom: 20px;*/
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#lgcLeftWrap h2:before {
+    content: '$';
+    font-size: 50%;
+    vertical-align: super;
+}
+
+#lgcLeftWrap h2 span {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+#lgcLeftWrap p {
+    font-size: 10px;
+    letter-spacing: .05em;
+    margin: 20px 0;
+}
+
+#lgcLeftWrap .cardRow .cardCol {
+    padding: 0;
+}
+
+#lgcLeftWrap .cardRow img{
+    width: 100%;
+}
+
+#lgcLeftWrap .notWideP {
+    width: 65%;
+    margin: 20px auto 0;
+}
+
+.partnerRow img{
+    width: 85%;
+}
+
+#lgcLeftWrap button {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: .07em;
+    padding: 5px 48px;
+    color: white;
+    border: none;
+    background: #22C477;
+    border-radius: 20px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+
+#lgcLeftWrap button:hover {
+    opacity: 0.8;
+}
+
+#lgcPerksWrap {
+    padding: 30px;
+}
+
+#lgcPerksWrap .lgcTitle {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .02em;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(240,240,240);
+    margin: 20px 0 0;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#lgcPerksWrap .lgcPerkOuter {
+    padding: 20px 20px 0;
+    text-align: left;
+    letter-spacing: .07em;
+}
+
+#lgcPerksWrap .lgcPerkTop {
+    background: rgb(240,240,240);
+    border-radius: 20px 20px 0 0;
+}
+
+#lgcPerksWrap .lgcPerkTop,
+#lgcPerksWrap .lgcPerkBtm {
+    padding: 20px 10px;
+}
+
+#lgcPerksWrap .lgcPerkTop img {
+    width: 100%;
+}
+
+#lgcPerksWrap .lgcPerkTop h4 {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0;
+}
+
+#lgcPerksWrap .lgcPerkTop button {
+    text-transform: uppercase;
+    float: right;
+    font-size: 8px;
+    font-weight: 500;
+    letter-spacing: .07em;
+    padding: 8px 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s;
+    color: #873DF2;
+    background: white;
+    border: 1px solid #873DF2;
+}
+
+#lgcPerksWrap .lgcPerkTop button:hover {
+    background: rgb(230,230,230);
+}
+
+#lgcPerksWrap .lgcPerkOuter .lgcPerkBtm {
+    background: rgb(230,230,230);
+    border-radius: 0 0 20px 20px;
+}
+
+#lgcPerksWrap .lgcPerkOuter .lgcPerkBtm p {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.lgcPerkBtm .partnerImgOuter img{
+    float: right;
+}
+
+/*LGC Pmt Overlay*/
+
+#lgcPmtOverlayOuter, #datumOverlayOuter, #saveDayOverlayOuter {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 20;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#lgcPmtOverlay, #datumOverlay, #saveDayOverlay {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: rgba(180,180,180,0.5);
+    margin-left: 0;
+}
+
+#lgcPmtOverlay h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+}
+
+#lgcPmtOverlay #lgcPmtCol {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#lgcPmtOverlay h3 {
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .03em;
+}
+
+#lgcPmtOverlay input, #lgcPmtOverlay select {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    background: rgb(238,238,238);
+    padding: 10px 20px;
+    margin: 14px 0;
+}
+
+#lgcPmtOverlay input::placeholder, #lgcPmtOverlay select {
+    color: rgb(100,100,100);
+    font-size: 10px;
+    letter-spacing: .08em;
+}
+
+#lgcPmtOverlay .lgcPmtSelect {
+    width: calc(50% - 2px);
+    display: inline-block;
+    margin: 0;
+}
+
+#lgcPmtOverlay #lgcPmtBtnWrap {
+    width: 100%;
+    text-align: center;
+}
+
+#lgcPmtBtnWrap h3 {
+    margin-bottom: 0;
+}
+
+#lgcPmtOverlay #lgcSubmit {
+    font-size: 16px;
+    width: 60%;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    background: #1C59E9;
+    padding: 10px;
+    margin: 5px auto 0;
+    transition: 0.3s;
+}
+
+#lgcCloseOverlay, #datumCloseOverlay, #saveDayCloseOverlay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    background: transparent;
+    text-shadow: 0 0 3px 1px rgba(50,50,50,0.6);
+    cursor: pointer;
+    color: black;
+    border: none;
+    transition: 0.4s;
+}
+
+/* utargt / datum overlay
+overlay style is combined with lcgPmtOverlay, line 846 */
+
+#datumOverlay #datumCol, #saveDayCol {
+    min-width: 33.3333%;
+    margin-left: 33.3333%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    background: white;
+/*    padding: 30px 30px 0;*/
+    padding: 0;
+    border-radius: 15px;
+}
+
+.questionTop {
+    padding: 30px 30px 0;
+}
+
+.questionImgWrap {
+    text-align: center;
+}
+
+.questionCol img {
+    width: 120px;
+    margin: 10px 0 15px;
+}
+
+.questionCol h1 {
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 15px;
+}
+
+.questionCol p {
+    font-size: 15px;
+    color: rgb(100,100,100);
+}
+
+.questionCol #questionTopHr {
+    margin: 30px 0 20px;
+}
+
+.questionForm {
+    padding: 0 30px;
+}
+
+.questionForm .questionLabel {
+    font-size: 14px;
+    letter-spacing: .03em;
+    color: black;
+    font-weight: bold;
+    display: block;
+}
+
+.questionForm input, .questionForm select {
+    color: #554AEE;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.questionForm .questionInput {
+    width: 100%;
+    padding-left: 7px;
+}
+
+.questionForm .questionInput, .questionForm select {
+    border: 1px solid rgb(232,232,232);
+    border-radius: 10px;
+    height: 25px;
+    margin-bottom: 18px;
+    padding-left: 7px;
+}
+
+.questionForm select {
+    width: 95px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.datumRadioInnerTop {
+    margin-bottom: 5px;
+}
+
+.questionRadioOuter input {
+    width: 8px;
+    margin-top: -4px;
+    vertical-align: middle;
+}
+
+.questionRadioOuter .questionRadioLabel {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(80,80,80);
+}
+
+.questionRadioOuter #datumZip {
+    border: none;
+    border-bottom: 1px solid rgb(232,232,232);
+    width: 110px;
+    height: 27px !important;
+    padding-top: 5px;
+    display: block;
+    margin-top: 4px;
+}
+
+.questionRadioOuter #datumZip::placeholder {
+    font-size: 14px;
+}
+
+.questionCol #questionBottomHr {
+    margin: 20px 0 0;
+}
+
+.questionBtnWrap .questionBtn {
+    font-weight: bold;
+    font-size: 12px;
+    width: 50%;
+    text-align: center;
+    padding: 13px 0;
+    cursor: pointer;
+}
+
+.questionCancel {
+    border-right: 1px solid lightgray;
+    color: rgb(190,190,190) !important;
+}
+
+#datumSubmit {
+    color: #22C477;
+}
+
+/* Rev Pmt Overlay */
+
+#revPmtOverlayOuter {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 20;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#revPmtOverlay {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: rgba(180,180,180,0.5);
+    margin-left: 0;
+}
+
+#revPmtOverlay h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+}
+
+#revPmtOverlay #revPmtCol {
+    margin-top: 80px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+#revPmtOverlay h3 {
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#revPmtOverlay input, #revPmtOverlay select {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    background: rgb(238,238,238);
+    padding: 10px 20px;
+    margin: 14px 0;
+}
+
+#revPmtOverlay input::placeholder, #revPmtOverlay select {
+    color: rgb(100,100,100);
+    font-size: 10px;
+    letter-spacing: .08em;
+}
+
+#revPmtOverlay .revPmtSelect {
+    width: calc(50% - 2px);
+    display: inline-block;
+    margin: 0;
+}
+
+#revPmtOverlay #revPmtBtnWrap {
+    width: 100%;
+    text-align: center;
+}
+
+#revPmtBtnWrap h3 {
+    margin-bottom: 0;
+}
+
+#revPmtOverlay #revSubmit {
+    font-size: 16px;
+    width: 60%;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    background: #1C59E9;
+    padding: 10px;
+    margin: 5px auto 0;
+    transition: 0.3s;
+}
+
+#revCloseOverlay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    background: transparent;
+    text-shadow: 0 0 3px 1px rgba(50,50,50,0.6);
+    cursor: pointer;
+    color: black;
+    border: none;
+    transition: 0.4s;
+}
+
+
+/* Register Page */
+
+.revRegOuter .revRegOuterCol {
+    background-image: url(../images/cpUpgradeHead.html);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 17%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px 1px rgb(200,200,200);
+}
+
+.revRegOuter .revRegOuterRow {
+    border-bottom: 1px solid rgb(240,240,240);
+}
+
+.revRegOuter .revRegOuterLast {
+    border-bottom: none;
+}
+
+.revRegOuter .revRegCol {
+    padding: 30px 60px;
+}
+
+.revRegOuter .revRegFirstCol {
+    position: relative;
+}
+
+.revRegOuter .revRegFirstCol:after {
+    content: '';
+    height: 70%;
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 15%;
+    background-color: rgb(240,240,240);
+}
+
+.revRegImgCol {
+    padding-right: 0 !important;
+    padding-left: 10px !important;
+}
+
+.revRegImgCol img {
+    width: 100%;
+}
+
+.revRegTextCol h5 {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 4px;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.revRegTextCol p {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif !important;
+    color: rgb(110,110,110);
+    letter-spacing: .04em;
+    line-height: 1.6;
+}
+
+.revRegBtnOuter {
+/*    text-align: center;*/
+}
+
+.revRegBtnOuter #revRegisterBtn {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: .05em;
+    margin: 40px auto;
+    padding: 30px 40px;
+    background: #22C477;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.revRegBtnOuter #revRegisterBtn:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width : 1600px) {
+    .revRegOuter .revRegCol {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .revRegOuter .revRegCol {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    .revRegTextCol {
+        padding-left: 25px !important;
+    }
+}
+
+@media only screen and (max-width : 991px) {
+    .revRegOuter {
+        margin-top: 30px;
+    }
+
+    .revRegOuter .revRegOuterCol {
+        min-width: 83.3333%;
+        margin-left: 8.3333%;
+    }
+
+    .revRegOuter .revRegCol {
+        padding: 20px;
+    }
+
+    #revPmtOverlay #revPmtCol {
+        min-width: 50%;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .revRegOuter .revRegOuterCol {
+        padding-top: 20%;
+    }
+
+    #revPmtOverlay h1 {
+        font-size: 30px !important;
+    }
+
+    #revPmtOverlay #revPmtCol {
+        min-width: 83.3333%;
+    }
+}
+
+@media only screen and (max-width : 640px) {
+    .revRegOuter .revRegCol {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width : 575px) {
+    .revRegOuterCol {
+        margin-left: 0 !important;
+    }
+
+    #revPmtOverlay #revPmtCol {
+        min-width: 100%;
+        margin-left: 0;
+    }
+
+    .revRegOuter .revRegCol {
+        padding: 20px;
+    }
+
+    .revRegRow {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+    }
+
+    .revRegImgCol {
+        min-width: 16.6666%;
+    }
+
+    .revRegTextCol {
+        min-width: 83.3333%;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    .indivSiteWrap .siteTop .siteTopBtns button {
+        text-transform: uppercase;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width : 400px) {
+    .revRegImgCol {
+        min-width: 25%;
+    }
+
+    .revRegTextCol {
+        min-width: 75%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+#dashboardTopOuter {
+    margin: 30px 0 60px;
+}
+
+.dashTop {
+    font-family: 'roboto', sans-serif;
+    font-size: 17px;
+    color: rgb(125,125,125);
+    font-weight: 500;
+}
+
+#dashboardLink {
+    font-weight: bolder;
+}
+
+#dashboardLink:hover {
+    text-decoration: none;
+    color: rgb(100,100,100);
+}
+
+/* Contact Page */
+
+.contactForm {
+    color: rgb(125,125,125);
+/*    border-radius: 20px;*/
+    background-color: white;
+    background-image: url('../images/man_copy.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-origin: content-box;
+    background-size: 460px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.contactForm #contactFormTitle {
+    color: rgb(20,20,20);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0 0;
+    padding-left: 5px;
+}
+
+.contactForm #contactFormSubtitle {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 10px 0 20px;
+    padding-left: 5px;
+}
+
+.contactForm input, textarea {
+    font-family: 'roboto', sans-serif;
+    font-weight: normal;
+    color: rgb(32,88,233);
+    width: calc(49.5% - 12px);
+    font-size: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    height: 36px;
+    border: solid 1px lightgray;
+    padding: 10px 18px;
+}
+
+.contactForm input::placeholder,
+.contactForm textarea::placeholder {
+    color: rgb(32,88,233);
+}
+
+.contactForm textarea {
+    /* width: 99.5%; */
+    width: calc(99.5% - 12px);
+    min-height: 150px;
+    resize: none;
+}
+
+#contactFormButton {
+    box-shadow: none !important;
+    font-weight: normal;
+    background: rgb(132,61,241);
+    border-radius: 50px;
+    font-size: 10px;
+    padding: 4px 28px;
+    color: white;
+    margin-top: 12px;
+}
+
+/* Account Page */
+
+.accountTop h4 {
+    font-size: 16px;
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    border-bottom: 1px solid rgb(240,240,240);
+}
+
+.accountInfo p {
+    font-size: 10px;
+    letter-spacing: .07em;
+    margin-bottom: 0;
+    padding: 8px 0;
+    color: #707070;
+}
+
+.accountInfo .row {
+    margin-bottom: 20px;
+}
+
+.accountInfo .acctBtn {
+    float: right;
+    font-size: 10px;
+    letter-spacing: .07em;
+    border-radius: 5px !important;
+    padding: 8px 10px !important;
+    background: transparent;
+    cursor: pointer;
+    color: #8a00ff;
+    border: 1px solid #8a00ff;
+    transition: 0.3s;
+}
+
+.accountInfo .acctBtn:hover {
+    color:  white;
+    background: -webkit-linear-gradient(left, #0055f1, #873df2) !important;
+    border-color: transparent;
+}
+
+.pmtCard {
+    padding: 10px 15px 0;
+    background: rgb(240,240,240);
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.pmtCard a {
+    color: #8a00ff;
+    font-size: 7px;
+    letter-spacing: .07em;
+}
+
+.pmtCard .pmtCenter {
+    margin: 10px 0 20px;
+}
+
+.pmtCard img {
+    height: 24px;
+    width: 24px;
+}
+
+.pmtCard span {
+    font-size: 10px;
+    color: rgb(95,95,95);
+    margin-left: 10px;
+    letter-spacing: .07em;
+}
+
+.pmtCard .pmtNext {
+    background: rgb(230,230,230);
+    border-radius: 0 0 8px 8px;
+}
+
+.pmtCard p {
+    display: inline-block;
+    color: rgb(95,95,95);
+    margin-bottom: 0;
+    font-size: 11px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.needsToSubscribe {
+    font-size: 14px;
+}
+
+.needsToSubscribe a {
+    color: rgb(51,51,51);
+    text-decoration: underline;
+}
+
+.needsToSubscribe a:hover {
+    color: #873DF2;
+}
+
+@media only screen and (max-width: 1350px) {
+    .accountInfo .acctLabel {
+        display: none;
+    }
+
+    .acctBtnWrap {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    #accountSectionWrap {
+        min-width: 83.333%;
+        max-width: 83.3333%;
+        margin-left: 8.3333%;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+/*    width and margin-left of projectsWrap*/
+    #projectsWrap {
+        margin-left: 8%;
+        min-width: 65%;
+    }
+
+    #lgcPerksWrap {
+        padding: 10px;
+    }
+
+/*
+    .lgcPerkTop .lgcPerkTopCol,
+    .lgcPerkTop .lgcPerkBtmCol{
+        padding-left: 0;
+    }
+*/
+
+    .lgcPerkTop .lgcPerkTopOuterCol {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+/*
+    #lgcPerksWrap .lgcPerkTop,
+    #lgcPerksWrap .lgcPerkBtm {
+        padding: 20px 10px;
+    }
+*/
+
+    #lgcPerksWrap .lgcTitle {
+        text-align: center;
+    }
+
+    .partnerImgOuter img {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .projectsAdWrap {
+        right: 10%;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .projectsAdWrap {
+        right: 2%;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    #datumOverlay #datumCol, #saveDayCol {
+        min-width: 50%;
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (max-width: 1124px) {
+    #lgcPerksWrap .lgcPerkTop h4 {
+        font-size: 12px
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .questionForm input {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #projectBorder {
+        margin: 15% 25%;
+    }
+
+    #accountSectionWrap {
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-left: 0;
+    }
+
+    .acctBtnWrap {
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
+
+    #lgcOuter {
+        margin-top: 20px;
+    }
+
+    .projectsAdWrap {
+        right: 5%;
+    }
+
+    #lgcLeftWrap .cardRowOuter {
+        flex: 0 0 100%;
+        min-width: 100%;
+    }
+
+    #lgcLeftWrap .notWideP {
+        width: 80%;
+    }
+
+    #lgcPmtCol {
+        min-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .projectsAdWrap #datumAdHeader {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #projectsWrap h2 {
+        font-size: 18px !important;
+    }
+
+    .projectsAdWrap h2 {
+        font-size: 26px !important;
+    }
+
+    #lgcLeftWrap h2 {
+        font-size: 26px !important;
+    }
+
+    #lgcPerksWrap .lgcTitle {
+        font-size: 26px !important;
+    }
+
+    #lgcPmtOverlay h1 {
+        font-size: 26px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .questionCol h1 {
+        font-size: 18px !important;
+        margin-bottom: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #projectOverlay {
+        padding: 0 15px;
+    }
+
+    #projectBorder {
+/*        padding: 30px 90px;*/
+    }
+
+/*
+    #projectBorder .btnRow .wideBtnCol {
+        max-width: 25%;
+        margin-left: 25%;
+    }
+*/
+
+    #projectBorder .btnRow .wideBtnCol {
+        max-width: 50%;
+        margin-left: 25%;
+        flex: 0 0 50%;
+    }
+
+    #projectBorder .btnRow .wideRightCol {
+        padding-left: 15px;
+    }
+
+    #projectBorder .btnRow .wideLeftCol {
+        padding-right: 15px;
+    }
+
+    #projectBorder .btnRow .upgradeWrap {
+        margin-left: 25%;
+    }
+
+    #projectBorder .btnRow .upgradeWrap,
+    #projectBorder .btnRow .deleteWrap {
+        max-width: 25%;
+    }
+
+    #projectBorder {
+        margin: 25% 0;
+    }
+
+    #projectsOuter {
+        display: grid;
+    }
+
+    .indivSiteWrap .siteTop .siteTopText {
+        margin-bottom: 15px;
+    }
+
+    .indivSiteWrap .siteTop .siteTopBtns {
+        justify-content: space-around;
+    }
+
+    .projectsAdWrap {
+        min-width: 50%;
+        margin-top: 15px;
+        margin-left: 25%;
+        position: initial;
+    }
+
+    .projectsAdWrap .projectsAdArt,
+    .projectsAdWrap .projectsAdBrand {
+        width: 100%;
+    }
+
+    .projectsAdWrap h2 {
+        font-size: 56px !important;
+    }
+
+    .accountTop {
+        min-width: 100%;
+    }
+
+    .accountInfo p {
+        font-size: 12px !important;
+    }
+
+    .accountInfo button {
+        font-size: 12px !important;
+    }
+
+    #lgcLeftWrap {
+        padding-top: 40%;
+    }
+
+    #lgcLeftWrap, #lgcPerksWrap {
+        max-width: 95%;
+        margin-left: 18px;
+    }
+
+     #lgcLeftWrap h2 {
+        font-size: 44px !important;
+    }
+
+    #lgcLeftWrap p {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    #lgcLeftWrap button {
+        font-size: 16px;
+        padding: 10px 50px;
+    }
+
+    #lgcPerksWrap {
+        margin-top: 15px;
+        padding: 30px;
+    }
+
+    .lgcPerkTop .lgcPerkTopOuterCol {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #lgcPmtCol {
+        min-width: 83.3333%;
+    }
+
+    #datumOverlay #datumCol, #saveDayCol {
+        min-width: 83.3333%;
+        margin-left: 8.3333%;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    #projectBorder .btnRow .wideBtnCol {
+        max-width: 83.3333%;
+        margin-left: 8.3333%;
+        flex: 0 0 100%;
+    }
+
+    #projectBorder .btnRow .upgradeWrap {
+        margin-left: 8.3333%;
+    }
+
+    #projectBorder .btnRow .upgradeWrap,
+    #projectBorder .btnRow .deleteWrap {
+        max-width: 41.6666%;
+    }
+
+    #projectsWrap h2 {
+        text-align: center;
+    }
+
+    .indivSiteWrap .siteTop .siteTopText,
+    .indivSiteWrap .siteTop .siteTopBtns {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+/*
+    .indivSiteWrap .siteTop .nameWrap h4 {
+        font-size: 18px;
+    }
+
+    .indivSiteWrap .siteTop .nameWrap a {
+        font-size: 12px;
+    }
+
+    .indivSiteWrap .siteTop .siteTopBtns button {
+        font-size: 12px;
+    }
+*/
+
+    .siteBtmCol .siteBtmViews,
+    .siteBtmCol .siteBtmCount {
+        font-size: 12px;
+    }
+
+    .indivSiteWrap .siteTop .siteTopText {
+        text-align: center;
+    }
+
+    .indivSiteWrap .siteTop h3 {
+        display: none;
+    }
+
+    .indivSiteWrap .siteTop .nameWrap {
+        display: block;
+    }
+
+    #lgcLeftWrap,
+    #lgcPerksWrap {
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    #projectBorder {
+        margin: 35% 0;
+    }
+
+    .topBtnRow .col-xs-6 {
+        width: 50%;
+    }
+
+    #projectsWrap {
+        margin-left: 0;
+    }
+
+    .projectsAdWrap {
+        max-width: 75%;
+        margin-left: 12%;
+    }
+
+    .projectsAdWrap h2 {
+        font-size: 36px !important;
+    }
+
+    #lgcLeftWrap .cardRow .cardCol {
+        width: 50%;
+    }
+
+    #lgcLeftWrap .cardRow img{
+        width: 100%;
+    }
+
+    .partnerRow .partnerCol {
+        width: 33.333%;
+    }
+
+    #lgcPerksWrap {
+        padding: 10px;
+    }
+
+    #lgcLeftWrap button {
+        margin-top: 30px;
+        padding: 10px 72px;
+    }
+
+    .lgcPerkTop .topImgCol {
+        width: 25%;
+    }
+
+    .lgcPerkTop .topTxtCol {
+        width: 41.6666%;
+    }
+
+    .lgcPerkTop .topBtnCol {
+        width: 33.3333%;
+    }
+
+    .lgcPerkTop .lgcPerkTopOuterCol {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .lgcPerkOuter .lgcPerkBtm {
+        text-align: center;
+    }
+
+    .lgcPerkBtm .partnerImgOuter img {
+        float: none;
+        width: 50%;
+        margin-top: 15px;
+    }
+
+    #lgcPmtCol {
+        width: 83.3333%;
+    }
+
+    .indivSiteWrap .siteTop .nameWrap a img {
+        display: none;
+    }
+
+    #datumOverlay #datumCol, #saveDayCol {
+        min-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    #projectBorder .btnRow .wideBtnCol {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    #projectBorder .btnRow .upgradeWrap {
+        margin-left: 0;
+    }
+
+    #projectBorder .btnRow .upgradeWrap,
+    #projectBorder .btnRow .deleteWrap {
+        max-width: 50%;
+    }
+
+    #projectsWrap {
+        padding: 30px 15px;
+    }
+
+    .indivSiteWrap .siteTop .siteTopBtns {
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .projectsAdWrap {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    #lgcLeftWrap,
+    #lgcPerksWrap {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .accountTop {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #lgcPmtCol {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .indivSiteWrap .siteTop .nameWrap a {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    #projectsWrap {
+        padding: 30px 5px;
+    }
+}
+
+.logInButton {
+    box-shadow: none !important;
+    width: 100%;
+    font-size: 12px !important;
+}
+
+.paymentButton {
+    box-shadow: none !important;
+}
+
+.editPart, .deletePart, .upgradePart, .dashboardPart {
+    display: inline;
+    width: 25%;
+    position: absolute;
+}
+
+.editPart, .upgradePart {
+    left: 18px;
+}
+
+.editPart {
+    top: 18px;
+}
+
+.deletePart .nav-link {
+    display: inline !important;
+}
+
+.deletePart, .dashboardPart {
+    text-align: right;
+    right: 18px;
+}
+
+.deletePart {
+    right: 12px;
+    top: 18px;
+}
+
+.dashboardPart a {
+    display: block;
+}
+
+.upgradePart, .dashboardPart {
+    bottom: 8px;
+}
+
+.projectCell h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#transferSection, footer {
+    font-size: 14px;
+}
+
+footer a, #transferSection a {
+    color: rgb(137, 46, 250) !important;
+}
+
+.sslInfoIcon {
+    left: 20px;
+}
+
+.domainInfoIcon {
+    right: 20px;
+}
+
+.bluePart {
+    position: relative;
+    background: -webkit-linear-gradient(#0055f1, #c000ff)
+}
+
+.bronze {
+    background: linear-gradient(rgb(166, 101, 38), rgb(77, 47, 17));
+}
+
+.silver {
+    background: linear-gradient(rgb(192, 192, 192), rgb(119, 119, 119));
+}
+
+.gold {
+    background: linear-gradient(rgb(255, 215, 0), rgb(158, 134, 0));
+}
+
+.platinum {
+    background: linear-gradient(rgb(160, 178, 198), rgb(76, 111, 149));
+}
+
+.sidebar[data-color="azure"] li.active > a {
+/*    background: -webkit-linear-gradient(left, #0055f1, #c000ff) !important;*/
+    background: -webkit-linear-gradient(left, #0055f1, #873df2) !important;
+}
+
+.sidebar[data-color="azure"] li.active > a p {
+    font-weight: bold;
+}
+
+.btn-primary.outline {
+    border: solid 1px #8a00ff;
+    color: #8a00ff;
+    font-weight: 400 !important;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary, #contactUsButton:hover, #projectsButton:hover, #contactUsButton:focus, #projectsButton:focus {
+    background: -webkit-linear-gradient(#0055f1, #c000ff) !important;
+    color: white;
+}
+
+.questionBox .btn-primary, #contactUsButton {
+    font-weight: 200 !important;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.swal-button--cancel {
+    background: white !important;
+    border: solid 1px #555555;
+}
+
+.swal-button {
+    background: -webkit-linear-gradient(#0055f1, #c000ff);
+    padding: 10px 24px !important;
+}
+
+.swal-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.swal-title {
+    font-family: 'Poppins', sans-serif;
+}
+
+.swal-modal {
+    border-radius: 30px;
+    box-shadow: 0px 0px 16px -2px white;
+}
+
+.swal-overlay {
+    z-index: 100001;
+}
+
+.projectCell {
+    box-shadow: lightgrey 0px 0px 10px 2px;
+    padding: 0 !important;
+    margin-bottom: 40px;
+}
+
+.projectCell h2 {
+    padding: 90px 0;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+nav {
+    border-bottom: none !important;
+}
+
+.projectCell a {
+    color: white !important;
+    font-size: 16px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.projectCell {
+    border-radius: 30px;
+}
+
+.bluePart {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.whitePart {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.dasboardPart a {
+    margin-bottom: 0;
+}
+
+.analyticsLink {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.whitePart a {
+    color: rgb(137, 46, 250) !important;
+}
+
+.whitePart {
+    background: white !important;
+    text-align: center;
+    padding: 8px;
+    position: relative;
+}
+
+#signUpTitle {
+    color: rgb(137, 46, 250) !important;
+}
+
+.domainInfoIcon {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+    font-size: 18px;
+}
+
+.sslInfoIcon {
+    position: absolute;
+    left: 10px;
+    top: 18px;
+    font-size: 18px;
+}
+
+.main-panel > .content {
+    margin-top: 0 !important;
+/*    min-height: 100vh !important;*/
+}
+
+.newSignOutButton {
+    top: 20px !important;
+    bottom: auto !important;
+    box-shadow: none !important;
+}
+
+.projectsSection {
+    background: white !important;
+    border-radius: 20px;
+    padding: 30px !important;
+}
+
+.noProjectsSection {
+    text-align: center;
+}
+
+#noProjectsText {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+#createProjectButton {
+    border: 1px solid rgb(137, 46, 250);
+    border-radius: 15px;
+    color: rgb(137, 46, 250);
+    box-shadow: none !important;
+    font-size: 12px !important;
+    background: white;
+    transition: 0.3s;
+}
+
+#createProjectButton:hover {
+    color: white !important;
+    background: -webkit-linear-gradient(#0055f1, #c000ff) !important;
+}
+
+.card-header {
+    background: -webkit-linear-gradient(#0055f1, #c000ff) !important;
+    color: white;
+}
+
+.card-category {
+    font-weight: 500;
+}
+
+.card {
+    font-size: 14px !important;
+}
+
+.table > thead > tr > th {
+    width: 25%;
+    font-size: 18px !important;
+}
+
+.upgradeSiteButton {
+    box-shadow: none !important;
+    color: #0099cc !important;
+    font-size: 11px !important;
+}
+
+.upgradeSiteButton:hover {
+    color: white !important;
+}
+
+#mailButton {
+    float: right;
+    font-weight: 300;
+    font-size: 16px;
+    color: #8a00fe;
+    cursor: pointer;
+}
+
+.svg-inline--fa {
+    vertical-align: -0.35em !important;
+}
+
+.input-group-addon {
+    width: auto !important;
+}
+
+/*
+@media only screen and (max-width : 1300px) {
+    .accountInfo .col-sm-4 {
+        width: 100%;
+    }
+}
+*/
+
+@media only screen and (max-width : 1200px) {
+    .contactWidth {
+        flex: 0 0 100% !important;
+        max-width: 100%
+    }
+
+    .contactForm {
+        background-image: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .paymentsSection {
+	    font-size: 36px;
+    }
+
+    .paymentsSection .btn {
+        font-size: 40px;
+        margin: 20px 0;
+    }
+
+    #topProject legend label {
+	    font-size: 30px;
+    }
+
+    #datumAdWrap {
+        padding: 20px 5px;
+    }
+
+    /* .col-md-offset-3 {
+	    margin-left: 25%;
+    }
+
+    .col-md-offset-2 {
+	    margin-left: 16.5%;
+    } */
+
+    #noProjectsText {
+	    font-size: 30px !important;
+    }
+
+    #createProjectButton {
+	    font-size: 16px !important;
+    }
+
+    .omb_authTitle {
+	    font-size: 32px !important;
+    }
+
+    .omb_spanOr {
+	    font-size: 32px !important;
+    }
+
+    .omb_forgotPwd {
+        font-size: 20px !important;
+        margin-top: 40px !important;
+    }
+
+    .logInButton {
+	    font-size: 22px !important;
+    }
+
+    input[type=text], input[type=password], input[type=email], input[type=number], .contactForm textarea {
+        font-size: 16px !important;
+        height: 36px !important;
+    }
+
+    .omb_socialButtons svg {
+	    display: none !important;
+    }
+
+    .btn-lg, .btn-group-lg > .btn {
+	    font-size: 24px !important;
+    }
+
+    .omb_login .omb_loginOr .omb_spanOr {
+        display: block !important;
+        position: absolute !important;
+        left: 50% !important;
+        top: -0.6em !important;
+        margin-left: -1.5em !important;
+        background-color: white !important;
+        width: 3em !important;
+        text-align: center !important;
+    }
+
+    .omb_login .omb_loginOr .omb_hrOr {
+	    margin-top: 7px !important;
+    }
+
+    .upgradeSiteButton {
+	    font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    .omb_login .omb_socialButtons a {
+	    font-size: 18px !important;
+    }
+
+    .secondPaymentSection {
+	    margin-top: 60px;
+    }
+
+    .the-price h1 {
+	    margin-bottom: 0 !important;
+    }
+
+/*
+    .main-panel > .content {
+	    margin-top: 25px !important;
+    }
+*/
+
+    .btn-primary.outline {
+        margin-right: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .editSection .btn.outline {
+        margin-top: 0 !important;
+        margin-bottom: 10px;
+        font-size: 12px !important;
+    }
+
+    .btn-lg, .btn-group-lg > .btn {
+	    font-size: 14px;
+    }
+
+/*
+    .btn.outline {
+	    padding: 8px 12px !important;
+        font-size: 20px !important;
+    }
+*/
+
+/*
+    .projectsSection {
+        border-radius: 20px;
+        background-color: white;
+    }
+*/
+
+    .projectsSection legend {
+	    font-size: 26px !important;
+    }
+
+    .projectsSection h3 {
+	    font-size: 18px !important;
+    }
+
+    .projectsSection h4 {
+        font-size: 16px !important;
+        margin-top: 5px !important;
+    }
+
+    .paymentsSection .editSection .btn.outline {
+        margin-top: 5px !important;
+        font-size: 12px !important;
+    }
+
+    textarea {
+	    font-size: 18px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .hidden-xs {
+	    display: block !important;
+    }
+
+    #datumAdWrap {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    .content {
+        background-image: none;
+    }
+
+    .contactForm {
+        background-size: 360px;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+/*
+    .col-md-offset-3 {
+	    margin-left: 0%;
+    }
+
+    .col-md-offset-2 {
+	    margin-left: 0%;
+    }
+
+*/
+
+    .contactForm input,
+    .contactForm textarea {
+	    width: 99.5%;
+    }
+
+    .contactForm #contactFormTitle,
+    .contactForm #contactFormSubtitle {
+        padding-left: 0;
+    }
+
+    input[type=text], input[type=password], input[type=email], input[type=number], .contactForm textarea {
+        font-size: 12px !important;
+        height: 38px !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .questionRadioOuter #datumZip {
+        width: 95px;
+        font-size: 14px !important;
+    }
+
+    .questionRadioOuter #datumZip::placeholder {
+        font-size: 12px;
+    }
+}
+
+
+
+@media only screen and (max-width : 400px) {
+    .contactForm {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    #accountSectionWrap {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
